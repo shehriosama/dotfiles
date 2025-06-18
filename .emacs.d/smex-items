@@ -1,0 +1,26 @@
+
+;; ----- smex-history -----
+(
+ list-packages
+ lsp-mode
+ c-mode
+ customize-variable
+ eval-buffer
+ rainbow-mode
+ package-install
+)
+
+;; ----- smex-data -----
+(
+ (eval-buffer . 9)
+ (customize-themes . 5)
+ (elisp-enable-lexical-binding . 2)
+ (list-packages . 3)
+ (rc/duplicate-line . 1)
+ (package-install . 2)
+ (customize-variable . 6)
+ (customize-set-variable . 1)
+ (rainbow-mode . 4)
+ (c-mode . 1)
+ (lsp-mode . 2)
+)

@@ -1,0 +1,49 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/osama/Documents/" . "learn_c/")
+ ("/home/osama/.config/" . "kitty/")
+ ("/home/" . "osama/")
+ ("/home/osama/.emacs.d/" . "rc/")
+ ("/home/osama/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/osama/Documents/learn_c/"
+ "/home/osama/.emacs.d/"
+ "/home/osama/.config/kitty/"
+ "/home/osama/.emacs.d/rc/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "main.c"
+ "init.el"
+ "custom.el"
+ "current-theme.conf"
+ "rc.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/osama/.emacs.d/" (26706 56837 165146 719000) "ido.last~" "auto-save-list/" "./" "smex-items" "ido.last" "custom.el~" "custom.el" "elpa/" "rc/" "everforest-theme/" "init.el" "eln-cache/" "rose-pine-theme/" "init.el~" "../" "transient/")
+
+ ("/home/osama/Documents/learn_c/" (26706 56668 59824 387000) "main.c~" "./" "main.c" "../")
+
+ ("/home/osama/Documents/" (26703 13666 180335 400000) "./" "VMs/" "learn_c/" "../" "القدرات/" "obsidian/")
+
+ ("/home/osama/" (26706 55298 492154 335000) ".var/" ".pki/" "Videos/" ".zcompdump" ".zsh_history" ".tmux.conf" ".bash_profile" ".cargo/" "./" ".thunderbird/" ".rustup/" ".config/" ".zcompdump-fedora-5.9.zwc" ".oh-my-zsh/" ".nvm/" "Projects/" "Documents/" "Public/" "Pictures/" ".zshrc" ".cache/" ".emacs.d/" "Templates/" ".bash_logout" ".zcompdump-fedora-5.9" "Music/" ".mozilla/" ".atuin/" ".nv/" ".viminfo" ".bash-preexec.sh" ".bash_history" ".vscode/" ".dotnet/" ".vim/" ".zshrc.pre-oh-my-zsh" ".tmux/" ".npm/" "Desktop/" ".histfile" ".p10k.zsh" "../" ".local/" "Downloads/" ".profile" ".zshenv" ".bashrc")
+
+ ("/home/osama/.config/kitty/" (26703 12160 504004 719000) "kitty.conf" "current-theme.conf" "./" "kitty.conf.bak" "../")
+
+ ("/home/osama/.config/" (26703 10423 711465 233000) "vivaldi/" "fontconfig/" "mimeapps.list" "okularpartrc" "dconf/" "google-chrome-beta/" "xdg-terminals.list" "evolution/" "okularrc" "GIMP/" "microsoft-edge-dev/" "tiling-assistant/" "./" "cronomix/" "google-chrome-unstable/" "blender/" "gtk-4.0/" "qt6ct/" "user-dirs.locale" "goa-1.0/" "kitty/" "fish/" "btop/" "pulse/" "audacity/" "QtProject.conf" "enchant/" "opera/" "gnome-initial-setup-done" "autostart/" ".gsd-keyboard.settings-ported" "google-chrome/" "nautilus/" "org.gnome.Ptyxis/" "Code/" "libvirt/" "procps/" "ulauncher/" "atuin/" "nvim/" "gtk-3.0/" "abrt/" "gnome-xdg-terminals.list" "user-dirs.dirs" "libreoffice/" "persepolis_download_manager/" "../" "gnome-boxes/" "BraveSoftware/" "OpenRGB/" "ibus/" "chromium/" "gnome-session/" "fastfetch/" "Kvantum/" "microsoft-edge-beta/")
+
+ ("/home/osama/.emacs.d/rc/" (26700 20172 831287 574000) "./" "rc.el" "../" "rc.el~")
+
+ ("/home/" (26698 45586 782561 324000) "timeshift/" "./" "osama/" "lost+found/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
