@@ -1,0 +1,105 @@
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.5;
+}
+
+
+box.modules-right {
+    border-radius: 18px;
+    margin: 4px 10px;
+    padding: 2px 8px;
+    background-color: #2e3440;
+}
+
+box.modules-center {
+    border-radius: 18px;
+    margin: 4px 3px;
+    padding: 2px 12px;
+    background-color: #2e3440;
+}
+
+box.modules-left {
+    margin-left: 10px;
+}
+
+#workspaces {
+    padding: 2px 6px;
+    margin: 4px 3px;
+    border-radius: 18px;
+    background-color: #2e3440;
+}
+
+#workspaces button {
+    all: initial;
+    /* Remove GTK theme values */
+    min-width: 0;
+    /* Fix weird spacing in materia */
+    box-shadow: inset 0 -3px transparent;
+    /* Use box-shadow instead of border so the text isn't offset */
+    padding: 2px 6px;
+    margin: 4px 3px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #d8dee9;
+}
+
+#workspaces button.active {
+    color: #8fbcbb;
+}
+
+#workspaces button:hover {
+    color: #eceff4;
+}
+
+#workspaces button.urgent {
+    color: #bf616a;
+}
+
+#cpu,
+#memory,
+#pulseaudio,
+#power-profiles-daemon,
+#language,
+#tray {
+    margin: 4px 0px;
+    padding: 2px 4px;
+    background-color: transparent;
+}
+
+#cpu {
+    color: #8fbcbb;
+}
+
+#memory {
+    color: #88c0d0;
+}
+
+#power-profiles-daemon {
+    color: #ebcb8b;
+}
+
+#pulseaudio {
+    color: #d08770;
+}
+
+#clock {
+    color: #d8dee9;
+}
+
+#language {
+    color: #d8dee9;
+}

@@ -1,3 +1,19 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+. "$HOME/.atuin/bin/env"
+
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+eval "$(atuin init bash)"
+
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
 
@@ -32,6 +48,14 @@ _fzf_comprun() {
         *)            fzf --preview "--preview 'bat -n --color=always --line-range :500 {}'" "$@" ;;
     esac
 }
+
+
+#export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
+#    --color=fg:#dfdfe0,bg:#393b44,hl:#6bdfff
+#    --color=fg+:#dfdfe0,bg+:#393b44,hl+:#6bdfff
+#    --color=info:#ffa14f,prompt:#ff8170,pointer:#b281eb
+#    --color=marker:#acf2e4,spinner:#b281eb,header:#acf2e4'
+
 
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
     --color=fg:#e5e9f0,bg:#3b4252,hl:#81a1c1

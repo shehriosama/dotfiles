@@ -2,60 +2,93 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/osama/.emacs.d/snippets/" . "c-mode/")
+ ("/home/osama/.config/rofi/launchers/" . "type-7/")
+ ("/home/osama/.config/rofi/" . "launchers/")
+ ("/home/osama/Pictures/Wallpapers/" . "nordic-wallpapers/")
+ ("/home/osama/Pictures/" . "Wallpapers/")
  ("/home/osama/Documents/" . "learn_c/")
- ("/home/osama/.config/" . "kitty/")
- ("/home/" . "osama/")
- ("/home/osama/.emacs.d/" . "snippets/")
- ("/home/osama/" . ".emacs.d/")
+ ("/home/osama/.config/" . "waybar/")
+ ("/home/osama/.emacs.d/" . "rc/")
+ ("/home/osama/" . ".config/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/osama/.emacs.d/snippets/c-mode/"
- "/home/osama/.emacs.d/snippets/c-like-syntax/"
- "/home/osama/.emacs.d/snippets/c++-mode/"
+ "/home/osama/"
+ "/home/osama/.config/waybar/"
+ "/home/osama/.config/hypr/"
+ "/home/osama/.config/rofi/launchers/type-7/"
+ "/home/osama/Pictures/Wallpapers/nordic-wallpapers/"
  "/home/osama/Documents/learn_c/"
+ "/home/osama/Videos/"
  "/home/osama/.emacs.d/"
+ "/home/osama/Documents/Orgs/"
+ "/home/osama/Downloads/"
  "/home/osama/.config/kitty/"
  "/home/osama/.emacs.d/rc/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- ".yas-parents"
+ "config.jsonc"
+ "style.css"
+ "hyprpaper.conf"
+ "style-6.rasi"
+ "hyprland.conf"
  "main.c"
  "init.el"
- "custom.el"
+ "try.org"
  "current-theme.conf"
- "rc.el"
+ "custom.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/osama/.emacs.d/snippets/c-mode/" (26706 57838 932735 71000) "main" "./" "inc" ".yas-parents" "../" "incq")
+ ("/home/osama/" (26734 52272 814571 289000) ".zsh_history" ".zcompdump-archlinux-btw-5.9" ".thunderbird/" ".var/" "Public/" ".bash_profile" ".gtkrc-2.0" ".mozilla/" "Pictures/" "Projects/" ".viminfo" ".config/" "Videos/" ".tmux.conf" ".bash_history" "Documents/" "install_hyprland.txt" ".dotnet/" ".gitconfig" "2025-07-09-013715_hyprshot.png" ".zcompdump" ".pki/" "../" ".vim/" ".nvidia-settings-rc" ".p10k.zsh" ".rustup/" "Music/" ".shell.pre-oh-my-zsh" ".cargo/" "rofi/" ".tmux/" ".atuin/" ".zen/" "Templates/" ".oh-my-zsh/" "2025-07-09-014542_hyprshot.png" ".bash-preexec.sh" ".zshrc.pre-oh-my-zsh" ".local/" ".bashrc" "./" "2025-07-09-014213_hyprshot.png" ".vscode/" "fzf-git.sh/" ".bash_logout" "gtoken.txt" ".cache/" ".profile" ".zshrc" "Desktop/" ".themes/" ".nv/" ".histfile" "2025-07-09-014224_hyprshot.png" ".emacs.d/" ".zcompdump-archlinux-btw-5.9.zwc" "Downloads/")
 
- ("/home/osama/.emacs.d/snippets/c-like-syntax/" (26706 57838 932563 898000) "if" "./" "elif" "while" "block" "for" "../" "else")
+ ("/home/osama/.config/waybar/" (26733 28258 908736 180000) "../" "./" "config.jsonc" "style.css")
 
- ("/home/osama/.emacs.d/snippets/c++-mode/" (26706 57838 932282 864000) "vec" "qdebug" "try" "./" "once" "fore" "catch" ".yas-parents" "uns" "../" "ns")
+ ("/home/osama/.config/" (26733 28736 434008 176000) "dconf/" "qt6ct/" "Code/" "google-chrome-beta/" "user-dirs.locale" "nwg-look/" "BraveSoftware/" "gtk-3.0/" "vivaldi/" "persepolis_download_manager/" "chromium/" "GIMP/" "atuin/" "simple-scan/" "fastfetch/" "mpv/" "kwalletrc" "tiling-assistant/" "nautilus/" "tmux/" "waybar/" "blender/" "pavucontrol.ini" "ibus/" "pulse/" "OpenRGB/" "fish/" "Kvantum/" "fontconfig/" "../" "ghostty/" "hypr/" "opera/" "rofi/" "btop/" "microsoft-edge-dev/" "okularrc" "google-chrome-unstable/" "kitty/" "gtk-4.0/" "goa-1.0/" "./" "microsoft-edge-beta/" "mimeapps.list" "epiphany/" "user-dirs.dirs" "evolution/" "nvim/" "google-chrome/" "xsettingsd/" "yelp/" "libreoffice/" ".gsd-keyboard.settings-ported")
 
- ("/home/osama/.emacs.d/snippets/" (26706 57964 285378 784000) "c-like-syntax/" "markdown-mode/" "snippet-mode/" "c++-mode/" "org-mode/" "./" "makefile-gmake-mode/" "html-mode/" "nix-mode/" "c-mode/" "java-mode/" "typescript-mode/" "rust-mode/" "js-mode/" "css-mode/" "../" "emacs-lisp-mode/")
+ ("/home/osama/.config/rofi/launchers/type-7/" (26733 20132 938862 274000) "style-9.rasi" "style-7.rasi" "style-10.rasi" "style-1.rasi" "../" "style-3.rasi" "style-2.rasi" "./" "launcher.sh" "style-6.rasi" "style-8.rasi" "style-4.rasi" "style-5.rasi")
 
- ("/home/osama/.emacs.d/" (26706 57926 212102 582000) "ido.last~" "auto-save-list/" "./" "smex-items" "ido.last" "custom.el~" "custom.el" "elpa/" "rc/" "snippets/" "everforest-theme/" "init.el" "eln-cache/" "rose-pine-theme/" "init.el~" "../" "transient/")
+ ("/home/osama/.config/hypr/" (26733 12716 767977 354000) "hyprland.conf" "../" "./" "hyprpaper.conf")
 
- ("/home/osama/" (26706 57975 505779 536000) ".var/" ".pki/" "Videos/" ".zcompdump" ".zsh_history" ".tmux.conf" ".bash_profile" ".cargo/" "./" ".thunderbird/" ".rustup/" ".config/" ".zcompdump-fedora-5.9.zwc" ".oh-my-zsh/" ".nvm/" "Projects/" "Documents/" "Public/" "Pictures/" ".zshrc" ".cache/" ".emacs.d/" "Templates/" ".bash_logout" ".zcompdump-fedora-5.9" "Music/" ".mozilla/" ".atuin/" ".nv/" ".viminfo" ".bash-preexec.sh" ".bash_history" ".vscode/" ".dotnet/" ".vim/" ".zshrc.pre-oh-my-zsh" ".tmux/" ".npm/" "Desktop/" ".histfile" ".p10k.zsh" "../" ".local/" "Downloads/" ".profile" ".zshenv" ".bashrc")
+ ("/home/osama/Pictures/Wallpapers/nordic-wallpapers/dynamic-wallpapers/" (26726 40792 0 0) "Surface/" "KagomeRoom/" "Aura/" "DeadTree/" "Iphone13Red/" "SolidDesert/" "cyberpunk-01/" "Coast/" "ChromeOSWater/" "DynamicFry/" "TheBeach/" "ZorinMountainFog/" "CorporationStreet/" "SolidIsland/" "FluidifiedST/" "Rock/" "Rocksketto/" "MojaveV2/" "WhiteLighthouse/" "Monterey/" "ChromeOSBlues/" "BigSur/" "EOS-ViktorForgacs/" "ChromeOSFire/" "Ocean/" "BigSurV2/" "Dome/" "SurfaceBreeze/" "LakesideDeerComplete/" "PaintingStudio/" "LakeTheCliff/" "StevenUniverse/" "DesertValley/" "Elementary-OS-Odin/" "Windows-11-3/" "Viragnegy/" "Symbolics/" "Globe/" "Win11Lake/" "CatherineRoom/" "PlasticBeach/" "Catalina/" "Viragharom/" "Truchet/" "Libadwaita/" "Lakeside/" "HimitsuHouse/" "ZorinMountain/" "../" "Hills/" "Riverside/" "SolidForest/" "SolidMountain/" "MountainsIsland/" "ChromeOSReds/" "EOS-Sunset/" "DesertTree/" "Plateau/" "RockyMountain/" "DesertSands/" "Fluent/" "GroovyGorilla/" "ChromeOSWind/" "ChromeOSYellows/" "Windows-11-2/" "Solitude/" "Windows-11/" "StepbyStep/" "Disco/" "ChromeOSGreens/" "ChromeOSEarth/" "PadarIsland/" "TheLake/" "UbuntuMinimal/" "FocalFossa/" "Firewatch/" "./" "Mojave/" "Carvan/" "Rocknegy/" "Desert/" "Fuji/" "LakesideDeer/" "Firewatch2/" "ExternalHimitsuHouse/" "Material/" "ZorinBlur/" "Viragegy/" "CorporationHall/" "MaterialMountains/" "EOS-WeYamle/" "TokyoStreet/" "HirsuitHippo/" "EOS-SnowCappedMountain/" "TheDesert/" "HirsuteHippoBlue/" "Adwaita/" "FedeMarinMountain/" "WaterHill/" "Minimal_Mojave/" "DesertPeak/" "MagicLake/" "Wiravketto/")
 
- ("/home/osama/Documents/learn_c/" (26706 56668 59824 387000) "main.c~" "./" "main.c" "../")
+ ("/home/osama/Pictures/Wallpapers/nordic-wallpapers/dynamic-wallpapers/Catalina/" (26579 18364 0 0) "ign_Catalina-3.jpg" "ign_Catalina-8.jpg" "ign_Catalina-4.jpg" "ign_Catalina-7.jpg" "ign_Catalina-1.jpg" "ign_Catalina-2.jpg" "ign_Catalina-6.jpg" "../" "ign_Catalina-5.jpg" "./")
 
- ("/home/osama/Documents/" (26703 13666 180335 400000) "./" "VMs/" "learn_c/" "../" "القدرات/" "obsidian/")
+ ("/home/osama/Documents/learn_c/" (26733 2195 827140 612000) "../" "main.c" "main.cpp" "./")
 
- ("/home/osama/.config/kitty/" (26703 12160 504004 719000) "kitty.conf" "current-theme.conf" "./" "kitty.conf.bak" "../")
+ ("/home/osama/Pictures/" (26726 63417 928247 372000) "Wallpapers/" "../" "./")
 
- ("/home/osama/.config/" (26703 10423 711465 233000) "vivaldi/" "fontconfig/" "mimeapps.list" "okularpartrc" "dconf/" "google-chrome-beta/" "xdg-terminals.list" "evolution/" "okularrc" "GIMP/" "microsoft-edge-dev/" "tiling-assistant/" "./" "cronomix/" "google-chrome-unstable/" "blender/" "gtk-4.0/" "qt6ct/" "user-dirs.locale" "goa-1.0/" "kitty/" "fish/" "btop/" "pulse/" "audacity/" "QtProject.conf" "enchant/" "opera/" "gnome-initial-setup-done" "autostart/" ".gsd-keyboard.settings-ported" "google-chrome/" "nautilus/" "org.gnome.Ptyxis/" "Code/" "libvirt/" "procps/" "ulauncher/" "atuin/" "nvim/" "gtk-3.0/" "abrt/" "gnome-xdg-terminals.list" "user-dirs.dirs" "libreoffice/" "persepolis_download_manager/" "../" "gnome-boxes/" "BraveSoftware/" "OpenRGB/" "ibus/" "chromium/" "gnome-session/" "fastfetch/" "Kvantum/" "microsoft-edge-beta/")
+ ("/home/osama/Pictures/Wallpapers/" (26726 41240 0 0) "Natueral/" "Linux_Distros/" "../" "nordic-wallpapers/" "everforest-walls/" "./" "MacOS/")
 
- ("/home/osama/.emacs.d/rc/" (26700 20172 831287 574000) "./" "rc.el" "../" "rc.el~")
+ ("/home/osama/Pictures/Wallpapers/nordic-wallpapers/" (26733 11278 595999 671000) "dynamic-wallpapers/" "../" "wallpapers/" "./")
 
- ("/home/" (26698 45586 782561 324000) "timeshift/" "./" "osama/" "lost+found/" "../")
+ ("/home/osama/Pictures/Wallpapers/nordic-wallpapers/wallpapers/" (26726 40708 0 0) "ign_unicorn.png" "underwater.png" "nordic-obsession.png" "ign_vaporWave.png" "nord_design.png" "nord-balloons.png" "ubuntu-frost.png" "ign_nordhills.png" "ign_unsplash14.png" "arctic-landscape.png" "ign_unsplash48.png" "ign_sweet_truck.png" "ign_unsplash46.png" "Minimal-Nord.png" "FormulaOne_Rosberg_1.jpg" "ign_mountain.png" "ign_unsplash44.png" "ign_unsplash1.png" "ign_nordic_triangle.png" "ign_unsplash16.png" "ign_iceAndFire.jpg" "nord_space.png" "ign-supertree-grove-singapore.png" "FormulaOne_Hamilton_3.jpg" "ign_unsplash28.png" "ign_soupKong.png" "ign_sunAndClouds.png" "ign_evening.png" "ign_unsplash17.png" "ign_stuff.png" "ign_ferrari2.png" "ign-0003.png" "archlinux.png" "ign_legendary.png" "ign_wolf.png" "ign_unsplash41.png" "ign_travelling.jpg" "ign_unsplash24.png" "ign_gunshot.png" "ign_unsplash36.png" "nord_buildings.png" "ign_desert.png" "ign_wild_fish.png" "ign_unsplash2.png" "ign_unsplash4.png" "audio-bunny.png" "ign_unsplash51.png" "ign-0011.png" "nord_lake.png" "ign-0000.png" "ign_zorin.png" "ign_unsplash32.png" "openbsd.png" "ign_yourName.png" "ign_graySpaceship.png" "ign_unsplash38.png" "ign_unsplash37.png" "space_kitty.png" "ign_unsplash6.png" "ign_unsplash30.png" "ign_ferrari1.png" "slackware.png" "ign_unsplash10.png" "ign_unsplash39.png" "ign_city.png" "ign_car.png" "ign_ferrari3.png" "nord_valley.png" "murky_peaks.jpg" "ign-hevlettpackard.png" "mountain_jaws.jpg" "nord_roads.png" "keyboard.png" "ign_puppyInSpace.jpg" "nord_alone_tree.png" "ign_unsplash11.png" "earth-in-space.png" "cpu_city.png" "ign_unsplash40.png" "ign_bratislava.png" "ign_mountains.png" "ign_racecar.png" "elementaryos.png" "ign_unsplash45.png" "nord_mountains.png" "ign_unsplash7.png" "ign_unsplash42.png" "ign_manjaro.png" "ign_unsplash18.png" "ign_unsplash27.png" "ign_endeavour3.png" "nordtheme.png" "pixelmoon.png" "ign_cityRain.png" "ign_planets.jpg" "ign_highTechGlobe.png" "linux-tux.png" "ign_unsplash29.png" "ign_colorful.png" "FormulaOne_Button_1.jpg" "ign_dudeOnBuilding.png" "gnu-linux.png" "ign_venom.jpg" "ign_outer_space.png" "ign_spiderman.jpg" "ign_mandalorian.jpg" "waves.jpg" "ign_unsplash23.png" "at_the_coffeshop.png" "ign_unsplash9.png" "wild.png" "ign_gradeintWave.jpg" "ign_windows_11.png" "chemical_nord.png" "ign_endeavour2.png" "opensuse.png" "ign-0009.png" "ign_spiral.jpg" "ign_endeavour4.png" "artix-nord.png" "street_blues.png" "ign-0008.png" "FormulaOne_Button_2.jpg" "ign_vader.png" "ign_beyondHillAndDale.jpg" "ign-0002.png" "ign_waifu.png" "ign_unsplash15.png" "BirdNord.png" "misty_mountains.jpg" "ign_unsplash49.png" "linux-be-good-4k.png" "ign_unsplash5.png" "ign_farFromTomorrow.jpg" "debian.png" "ign_sunset.png" "voidlinux.png" "ign_tokyo.jpg" "plan9.png" "nord_scenary.png" "ign_herakles.png" "ign_lightning.jpg" "ign_leafHelmet.png" "windows-panic.png" "rocket.png" "nord_triangles.png" "subtle_ferns.jpg" "FormulaOne_Vettel_1.jpg" "ign_sunGarden.png" "ign_unsplash43.png" "ign_cityRainOther.png" "super-mario.png" "linux-friends-4k.png" "nord_bridge.png" "ign_unsplash8.png" "ign_mountains.jpg" "ign_circuit.png" "ign_lighthouse.png" "debian-galaxy.png" "voidlinux-01.png" "ign_endeavour1.png" "ign_starWars.jpg" "ign_unsplash12.png" "ign_astronaut.png" "ign_unsplash33.png" "ign_unsplash21.png" "linux-is-coming-4k.png" "ign_unsplash13.png" "ign_wanderlust.jpg" "ign_unsplash35.png" "ign-0001.png" "ign_unsplash52.png" "kittyboard.png" "ubuntu-aurora.png" "ign_furkaPass.jpg" "ign_unsplash26.png" "FormulaOne_Hamilton_1.jpg" "ign_ferrari4.png" "ign_street-crossing.png" "FormulaOne_Rosberg_2.jpg" "ign_robots.png" "CRON-Nord.png" "FormulaOne_Hamilton_2.jpg" "ign_groot.png" "ign_unsplash31.png" "ign_unsplash34.png" "ign_about_to_die.png" "Nordic-Heroin.png" "ign_unsplash47.png" "ign_wave.png" "nixos.png" "nord-arctic-fox.png" "Abstract-Nord.png" "ign_starWarsThing.png" "ign_nordic_rose.png" "fedora.png" "ign_unsplash22.png" "ign_black.jpg" "ign_unsplash50.png" "pixelcity.png" "ign_astronautInTheOcean.png" "container_ship.png" "ign_unsplash19.png" "ign_batman.png" "ign_witch.png" "prime-number-spiral.png" "ign_unsplash3.png" "ign_manInStreet.png" "FormulaOne_Vettel_2.jpg" "ign_lonely-man.png" "../" "./")
+
+ ("/home/osama/Documents/" (26731 45350 80167 416000) "learn_c/" "../" "Obsidian/" "./" "file.pdf" "Orgs/")
+
+ ("/home/osama/Videos/" (26731 46461 128150 175000) "../" "OBS Records/" "./" "untitled.mp4")
+
+ ("/home/osama/.emacs.d/" (26730 62912 258609 652000) "smex-items" "url/" "snippets/" "rc/" "transient/" "../" "elpa/" "eln-cache/" "ido.last" "auto-save-list/" "custom.el" "./" "init.el" "eshell/")
+
+ ("/home/osama/Documents/Orgs/" (26730 57448 236903 326000) "../" "./" "try.org")
+
+ ("/home/osama/Downloads/" (26730 26404 381320 455000) "Persepolis/" "KvLibadwaita/" "../" "./")
+
+ ("/home/osama/.config/kitty/" (26727 62568 874924 434000) "current-theme.conf" "../" "kitty.conf" "./")
+
+ ("/home/osama/.config/rofi/" (26729 33458 68465 687000) "colors/" "scripts/" "powermenu/" "../" "launchers/" "images/" "./" "applets/" "config.rasi")
+
+ ("/home/osama/.config/rofi/launchers/" (26729 33458 66605 366000) "type-5/" "type-7/" "type-6/" "type-1/" "../" "./" "type-2/" "type-3/" "type-4/")
+
+ ("/home/osama/.cache/" (26729 25204 639034 700000) "folks/" "tracker3/" "BraveSoftware/" "Hyprland Updated!/" "obexd/" "gitstatus/" "p10k-instant-prompt-osama.zsh" "gstreamer-1.0/" "simple-scan/" "rofi3.druncache" "p10k-dump-osama.zsh" "nvidia/" "blender/" "paru/" "flatpak/" "fontconfig/" "p10k-dump-osama.zsh.zwc" "../" "font-dirs.xml" "Microsoft/" "rofi-entry-history.txt" "libgweather/" "mozilla/" "kitty/" "gtk-4.0/" "vscode-cpptools/" "./" "qtshadercache-x86_64-little_endian-lp64/" "epiphany/" "p10k-osama/" "event-sound-cache.tdb.e765adfbe83c4a86a72b9d952d9e7055.x86_64-pc-linux-gnu" "p10k-instant-prompt-osama.zsh.zwc" "evolution/" "nvim/" "vim/" "clipboard-indicator@tudmotu.com/" "yelp/" "thumbnails/" "thunderbird/")
+
+ ("/home/osama/.emacs.d/rc/" (26728 2932 614081 362000) "../" "rc.el~" "./" "rc.el")
+
+ ("/home/osama/.emacs.d/auto-save-list/" (26727 61930 33367 604000) "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

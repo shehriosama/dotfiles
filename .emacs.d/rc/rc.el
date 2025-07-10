@@ -37,4 +37,3 @@
     (forward-char column)))
 
 (global-set-key (kbd "C-,") 'rc/duplicate-line)
-;;; rc.el ends here

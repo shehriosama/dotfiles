@@ -11,21 +11,29 @@ fi
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time Oh My Zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Plugins
 plugins=(
-	git
-	zsh-autosuggestions
-	zsh-syntax-highlighting
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+. "$HOME/.atuin/bin/env"
+
 eval "$(atuin init zsh)"
 
 # +---- FZF ----+ #
@@ -65,6 +73,14 @@ _fzf_comprun() {
     esac
 }
 
+#+-- XCode dark --+#
+#export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
+#    --color=fg:#dfdfe0,bg:#393b44,hl:#6bdfff
+#    --color=fg+:#dfdfe0,bg+:#393b44,hl+:#6bdfff
+#    --color=info:#ffa14f,prompt:#ff8170,pointer:#b281eb
+#    --color=marker:#acf2e4,spinner:#b281eb,header:#acf2e4'
+
+#+-- Nord dark --+#
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
     --color=fg:#e5e9f0,bg:#3b4252,hl:#81a1c1
     --color=fg+:#e5e9f0,bg+:#3b4252,hl+:#81a1c1

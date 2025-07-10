@@ -1,26 +1,42 @@
 
 ;; ----- smex-history -----
 (
- list-packages
- lsp-mode
- c-mode
- customize-variable
- eval-buffer
+ eshell-command
+ js-jsx-mode
+ js-json-mode
  rainbow-mode
- package-install
+ split-window-vertically
+ customize-themes
+ dired-create-empty-file
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 9)
- (customize-themes . 5)
- (elisp-enable-lexical-binding . 2)
- (list-packages . 3)
- (rc/duplicate-line . 1)
- (package-install . 2)
- (customize-variable . 6)
- (customize-set-variable . 1)
- (rainbow-mode . 4)
- (c-mode . 1)
- (lsp-mode . 2)
+ (customize . 2)
+ (customize-themes . 6)
+ (eval-buffer . 6)
+ (customize-variable . 17)
+ (all-the-icons-install-fonts . 1)
+ (list-packages . 4)
+ (package-refresh-contents . 1)
+ (package-install . 1)
+ (json-ts-mode . 1)
+ (js-jsx-mode . 5)
+ (js-base-mode . 1)
+ (js-json-mode . 3)
+ (split-window-vertically . 4)
+ (split-window-horizontally . 2)
+ (vterm . 3)
+ (rainbow-mode . 3)
+ (eshell . 1)
+ (eshell-command . 16)
+ (whitespace-mode . 2)
+ (compile . 1)
+ (org-mode-restart . 2)
+ (org-date-from-calendar . 1)
+ (org-calendar-goto-today . 2)
+ (org-version . 1)
+ (org-superstar-mode . 2)
+ (eww . 1)
+ (dired-create-empty-file . 1)
 )
