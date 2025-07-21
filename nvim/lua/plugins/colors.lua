@@ -1,9 +1,9 @@
 return {
-    "gbprod/nord.nvim",
+    "Shatur/neovim-ayu",
     lazy = false,
     priority = 1000,
     config = function()
-        require("nord").setup({})
-        vim.cmd.colorscheme("nord")
+        require("ayu").setup({})
+        vim.cmd.colorscheme("ayu-mirage")
     end,
 }
