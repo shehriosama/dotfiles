@@ -2,21 +2,25 @@
 (package-initialize)
 (setq custom-file "~/.emacs.d/custom.el")
 
+(add-to-list 'load-path "~/.emacs.d/rc/")
 (load "~/.emacs.d/rc/rc.el")
+(load "~/.emacs.d/rc/ide.el")
 
 ;;; Appearance
-(set-frame-font "JetBrainsMono Nerd Font Mono 13")
+(set-frame-font "JetBrainsMono Nerd Font 13")
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
 (global-display-line-numbers-mode 1)
 (global-display-fill-column-indicator-mode 1)
+(electric-pair-mode 1)
 
 (use-package doom-modeline
   :ensure t
   :config
   (doom-modeline-mode))
+
 
 (use-package all-the-icons
   :config
@@ -44,73 +48,6 @@
 (setq-default dired-dwim-target t)
 (setq dired-listing-switches "-alh")
 (setq dired-mouse-drag-files t)
-
-;;; FlyCheck
-(use-package flycheck
-  :init (global-flycheck-mode t))
-
-;;; Company
-(use-package company
-  :ensure t
-  :config
-  (global-company-mode)
-  (add-hook 'tuareg-mode-hook
-            (lambda ()
-              (interactive)
-              (company-mode 0))))
-
-;;; YASnippet
-(use-package yasnippet
-  :ensure t
-  :config
-  (setq yas-snippet-dirs '("~/.emacs.d/snippets/"))
-  (yas-global-mode))
-
-(use-package tree-sitter-langs
-  :ensure t
-  :config
-  (global-tree-sitter-mode)
-  (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
-
-;;; Rainbow
-;; Delimiters
-(use-package rainbow-delimiters
-  :ensure t
-  :config
-  (rainbow-delimiters-mode)
-  (add-hook 'foo-mode-hook #'rainbow-delimiters-mode)
-  (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
-;; Mode
-(use-package rainbow-mode
-  :ensure t
-  :hook (emacs-lisp-mode text-mode lisp-mode prog-mode)
-  :init (rainbow-mode))
-
-;;; Enable Ligature
-(use-package ligature
-  :config
-  ;; Enable the "www" ligature in every possible major mode
-  (ligature-set-ligatures 't '("www"))
-  ;; Enable traditional ligature support in eww-mode, if the
-  ;; `variable-pitch' face supports it
-  (ligature-set-ligatures 'eww-mode '("ff" "fi" "ffi"))
-  ;; Enable all Cascadia Code ligatures in programming modes
-  (ligature-set-ligatures 'prog-mode '("|||>" "<|||" "<==>" "<!--" "####" "~~>" "***" "||=" "||>"
-                                       ":::" "::=" "=:=" "===" "==>" "=!=" "=>>" "=<<" "=/=" "!=="
-                                       "!!." ">=>" ">>=" ">>>" ">>-" ">->" "->>" "-->" "---" "-<<"
-                                       "<~~" "<~>" "<*>" "<||" "<|>" "<$>" "<==" "<=>" "<=<" "<->"
-                                       "<--" "<-<" "<<=" "<<-" "<<<" "<+>" "</>" "###" "#_(" "..<"
-                                       "..." "+++" "/==" "///" "_|_" "www" "&&" "^=" "~~" "~@" "~="
-                                       "~>" "~-" "**" "*>" "*/" "||" "|}" "|]" "|=" "|>" "|-" "{|"
-                                       "[|" "]#" "::" ":=" ":>" ":<" "$>" "==" "=>" "!=" "!!" ">:"
-                                       ">=" ">>" ">-" "-~" "-|" "->" "--" "-<" "<~" "<*" "<|" "<:"
-                                       "<$" "<=" "<>" "<-" "<<" "<+" "</" "#{" "#[" "#:" "#=" "#!"
-                                       "##" "#(" "#?" "#_" "%%" ".=" ".-" ".." ".?" "+>" "++" "?:"
-                                       "?=" "?." "??" ";;" "/*" "/=" "/>" "//" "__" "~~" "(*" "*)"
-                                       "\\\\" "://"))
-  ;; Enables ligature checks globally in all buffers. You can also do it
-  ;; per mode with `ligature-mode'.
-  (global-ligature-mode t))
 
 (load-file custom-file)
 ;;; init.el ends here
