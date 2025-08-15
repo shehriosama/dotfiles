@@ -46,6 +46,8 @@ return {
                 "rust_analyzer",
                 "gopls",
                 "clangd",
+                "jdtls",
+                "pyright",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
@@ -125,6 +127,7 @@ return {
                 header = "",
                 prefix = "",
             },
+            virtual_text = true,
         })
     end
 }
