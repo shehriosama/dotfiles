@@ -129,5 +129,6 @@ return {
             },
             virtual_text = true,
         })
+        vim.lsp.enable("jdtls")
     end
 }

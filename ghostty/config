@@ -1,11 +1,14 @@
 confirm-close-surface = false
+bell-features = system
 
-font-family = JetBrainsMono Nerd Font
-font-size = 13
+font-family = "JetBrainsMono Nerd Font"
+font-size = 12
+
+adjust-box-thickness = 1
 bold-is-bright = true
 
 window-height = 34
-window-width = 110
+window-width = 100
 
 # Theme
-theme = nord
+theme = Material Darker
